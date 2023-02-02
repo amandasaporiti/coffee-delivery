@@ -1,0 +1,343 @@
+      
+      // import tradicional from "../../assets/tradicional.svg"
+// import americano from "../../assets/americano.svg"
+// import arabe from "../../assets/arabe.svg"
+// import cafe from "../../assets/cafe-leite.svg"
+// import capuccino from "../../assets/capuccino.svg"
+// import cremoso from "../../assets/cremoso.svg"
+// import cubano from "../../assets/cubano.svg"
+// import gelado from "../../assets/gelado.svg"
+// import havaiano from "../../assets/havaiano.svg"
+// import chocolate from "../../assets/chocolate-quente.svg"
+// import irlandes from "../../assets/irlandes.svg"
+// import latte from "../../assets/latte.svg"
+// import macchiato from "../../assets/macchiato.svg"
+// import mocaccino from "../../assets/mocaccino.svg"
+      
+        {/* <MenuOptions>
+          <img src={cremoso} alt="Expresso Cremoso" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+          </div>
+
+          <h2>Expresso Cremoso</h2>
+          <p>Café expresso tradicional com espuma cremosa</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={gelado} alt="Expresso Gelado" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>Gelado</span>
+          </div>
+
+          <h2>Expresso Gelado</h2>
+          <p>Bebida preparada com café expresso e cubos de gelo</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={cafe} alt="Café com Leite" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Café com Leite</h2>
+          <p>Meio a meio de expresso tradicional com leite vaporizado</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={latte} alt="Latte" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Latte</h2>
+          <p>Uma dose de café expresso com o dobro de leite e espuma cremosa</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={capuccino} alt="Capuccino" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Capuccino</h2>
+          <p>Bebida com canela feita de doses iguais de café, leite e espuma</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={macchiato} alt="Macchiato" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Macchiato</h2>
+          <p>Café expresso misturado com um pouco de leite quente e espuma</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={mocaccino} alt="Mocaccino" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Tradicional</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Mocaccino</h2>
+          <p>Café expresso com calda de chocolate, pouco leite e espuma</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img
+            src={chocolate}
+            alt="Chocolate Quente"
+            height={120}
+            width={120}
+          />
+          <div className="coffee-type">
+            <span>Especial</span>
+            <span>com leite</span>
+          </div>
+
+          <h2>Chocolate Quente</h2>
+          <p>Bebida feita com chocolate dissolvido no leite quente e café</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={cubano} alt="Cubano" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Especial</span>
+            <span>alcoólico</span>
+            <span>gelado</span>
+          </div>
+
+          <h2>Cubano</h2>
+          <p>Drink gelado de café expresso com rum, creme de leite e hortelã</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={havaiano} alt="Havaiano" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Especial</span>
+          </div>
+
+          <h2>Havaiano</h2>
+          <p>Bebida adocicada preparada com café e leite de coco</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={arabe} alt="Árabe" height={120} width={120} />
+          <div className="coffee-type">
+            <span>Especial</span>
+          </div>
+
+          <h2>Árabe</h2>
+          <p>Bebida preparada com grãos de café árabe e especiarias</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions>
+        <MenuOptions>
+          <img src={irlandes} alt="Irlandês" height={120} width={120} />
+          <div className="coffee-type">
+            <span>TRADICIONAL</span>
+            <span>alcoólico</span>
+          </div>
+
+          <h2>Irlandês</h2>
+          <p>Bebida a base de café, uísque irlandês, açúcar e chantilly</p>
+          <AddQuantityItens>
+            <h3>
+              R$ <strong>9,90</strong>
+            </h3>
+            <div className="add-to-cart">
+              <button>
+                <MinusIcon size={16} />
+              </button>
+              <h4>1</h4>
+              <button>
+                <PlusIcon size={16} />
+              </button>
+            </div>
+            <div className="cart-icon">
+              <CardIcon />
+            </div>
+          </AddQuantityItens>
+        </MenuOptions> */}
