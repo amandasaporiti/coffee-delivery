@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-challenge-02-coffee-delivery/495cc5aa91e78c394a507eb389ca72fb389fb499/src/assets/img/logo.svg" alt="Coffee Delivery" width="100"/>
+   <img src="https://raw.githubusercontent.com/amandasaporiti/coffee-delivery/db361154bb6e1c1e4d54bf838c6ff06e02a08302/src/assets/coffee-delivery-logo.svg" alt="Coffee Delivery" width="120"/>
 </h1>
 
 ---
@@ -21,6 +21,16 @@
   <a href="#runner-rodando-o-projeto">Rodando o projeto</a>
 </p>
 
+<br>
+
+<img src="https://github.com/amandasaporiti/coffee-delivery/blob/master/src/assets/cover-coffee-delivery.png?raw=true" alt="Coffee Delivery Project Cover"/>
+</h1>
+
+<br>
+<br>
+<br>
+
+[COFFEE DELIVERY ONLINE ON NETLIFY](https://coffee-shop-delivery.netlify.app/) :tada:<br>
 <br>
 
 ## :house: Sobre o projeto
