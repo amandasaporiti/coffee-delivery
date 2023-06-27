@@ -1,12 +1,18 @@
 import { Link } from 'react-router-dom'
+import { EmptyCartContainer } from './styles'
+
+import emptyCartImg from '../../assets/empty-cart.svg'
 
 export function EmptyCart() {
   return (
-    <div>
-      <h1>
-        Carrinho vazio{' '}
-        <Link to="/">Volte ao cardápio e selecione alguma opção</Link>
-      </h1>
-    </div>
+    <EmptyCartContainer>
+      <div>
+        <h2>Ihh! Não tem nada aqui!</h2>
+        <span>
+          Volte ao <Link to="/">cardápio</Link> para comprar
+        </span>
+      </div>
+      <img src={emptyCartImg} alt="Carrinho vazio" />
+    </EmptyCartContainer>
   )
 }

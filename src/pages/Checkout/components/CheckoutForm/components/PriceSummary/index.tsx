@@ -1,9 +1,13 @@
 import { useContext } from 'react'
-import { priceFormatter } from '../../../utils/priceFormatter'
+import { priceFormatter } from '../../../../../../utils/priceFormatter'
 import { ConfirmOrderButton, PriceSummaryContainer } from './styles'
-import { CartContext } from '../../../contexts/CartContext'
+import { CartContext } from '../../../../../../contexts/CartContext'
 
-export function PriceSummary() {
+interface PriceSummaryProps {
+  isFormDisabled: boolean
+}
+
+export function PriceSummary({ isFormDisabled }: PriceSummaryProps) {
   const { coffeesInCart } = useContext(CartContext)
 
   const summary = coffeesInCart.reduce((acc, coffee) => {
@@ -26,7 +30,9 @@ export function PriceSummary() {
         <h3>Total</h3>
         <strong>{priceFormatter.format(totalWithShipment)}</strong>
       </div>
-      <ConfirmOrderButton type="submit">Confirmar pedido</ConfirmOrderButton>
+      <ConfirmOrderButton type="submit" disabled={isFormDisabled}>
+        Confirmar pedido
+      </ConfirmOrderButton>
     </PriceSummaryContainer>
   )
 }

@@ -1,5 +1,6 @@
 import { ReactNode, createContext, useEffect, useState } from 'react'
 import { Coffee } from '../pages/Home/components/CoffeeCard'
+import { toast } from 'react-toastify'
 
 interface CartContextProps {
   children: ReactNode
@@ -64,12 +65,26 @@ export function CartContextProvider({ children }: CartContextProps) {
       (coffeeIndex) => coffeeIndex.id === coffee.id,
     )
 
+    function addCoffeeToastMessage() {
+      toast.success('Café adicionado ao carrinho!', {
+        position: 'top-right',
+        autoClose: 1300,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: 'light',
+      })
+    }
+
     /*
      * Adicionar o café ao carrinho
      */
     if (isCoffeeAlreadyInCart === -1) {
       setCoffeesInCart((coffeesInCart) => [...coffeesInCart, coffee])
-      console.log(coffeesInCart)
+
+      addCoffeeToastMessage()
     }
 
     /*
@@ -86,6 +101,8 @@ export function CartContextProvider({ children }: CartContextProps) {
             : coffeeIndex,
         ),
       )
+
+      addCoffeeToastMessage()
     }
   }
 

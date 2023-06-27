@@ -1,8 +1,8 @@
 /* eslint-disable array-callback-return */
 import { useContext } from 'react'
-import { CartContext } from '../../../contexts/CartContext'
-import { InputQuantity } from '../../../components/InputQuantity'
-import { priceFormatter } from '../../../utils/priceFormatter'
+import { CartContext } from '../../../../../../contexts/CartContext'
+import { InputQuantity } from '../../../../../../components/InputQuantity'
+import { priceFormatter } from '../../../../../../utils/priceFormatter'
 import {
   CartSummary,
   CoffeeSummary,
